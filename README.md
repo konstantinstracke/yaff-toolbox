@@ -11,7 +11,7 @@ The focus is mainly on conversion scripts that help bridge different file format
 - Conversion of structure files to YAFF-compatible formats
 - Preprocessing helpers
 - Lightweight analysis scripts for simulation output
-- Designed to be simple, modular, and easy to adapt
+- Simple helper
 
 ---
 
