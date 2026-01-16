@@ -2,7 +2,7 @@
 
 This repository contains a small collection of utility scripts for file handling, preprocessing, and analysis in workflows based on YAFF.
 
-The focus is mainly on conversion scripts that help bridge different file formats commonly used in atomistic simulations (e.g. MFPX, XYZ, CHK), along with lightweight analysis helpers.
+The focus is mainly on conversion scripts
 
 ---
 
