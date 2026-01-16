@@ -6,24 +6,10 @@ The focus is mainly on conversion scripts that help bridge different file format
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── 1-conversion/
-│   └── Scripts for converting and preprocessing input/output files
-│
-├── 2-analysis/
-│   └── Simple analysis tools for YAFF-based simulations
-│
-└── README.md
-```
----
-
 ## Features
 
 - Conversion of structure files to YAFF-compatible formats
-- Preprocessing helpers (e.g. cleaning .mfpx files)
+- Preprocessing helpers
 - Lightweight analysis scripts for simulation output
 - Designed to be simple, modular, and easy to adapt
 
@@ -45,6 +31,6 @@ Available at: http://molmod.ugent.be/software
 
 ## Notes
 
-- These scripts are not a polished package, but a practical toolbox developed for day-to-day research use.
+- These scripts are not a polished, but for day-to-day research use.
 - File formats and conventions are assumed to match the author’s simulation setup.
 - Use and modify at your own discretion.
