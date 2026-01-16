@@ -28,9 +28,11 @@ The focus is mainly on conversion scripts that help bridge different file format
 
 ---
 
-## Citation
+## YAFF
 
-If you use YAFF in connection with this toolbox, please cite:
+https://github.com/molmod/yaff
+
+cite:
 
 Verstraelen, T.; Vanduyfhuys, L.; Vandenbrande, S.; Rogge, S.  
 YAFF, Yet Another Force Field.  
