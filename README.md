@@ -18,10 +18,8 @@ cite:
 Verstraelen, T.; Vanduyfhuys, L.; Vandenbrande, S.; Rogge, S.  
 YAFF, Yet Another Force Field.  
 Available at: http://molmod.ugent.be/software  
-2022. Accessed on 25-11-2024.  
-(No corresponding bibliographic record is available.)
+2022. Accessed on 21-04-2026.  
 
----
 
 ## Notes
 
