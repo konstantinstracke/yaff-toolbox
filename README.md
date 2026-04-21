@@ -2,8 +2,6 @@
 
 This repository contains a small collection of utility scripts for file handling, preprocessing, and analysis in workflows based on YAFF.
 
-The focus is mainly on conversion scripts
-
 ---
 
 ## Features
