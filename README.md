@@ -2,7 +2,6 @@
 
 This repository contains a small collection of utility scripts for file handling, preprocessing, and analysis in workflows based on YAFF.
 
----
 
 ## Features
 
@@ -10,7 +9,6 @@ This repository contains a small collection of utility scripts for file handling
 - Lightweight analysis scripts for simulation output
 - Simple helper
 
----
 
 ## YAFF
 https://github.com/molmod/yaff
