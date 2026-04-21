@@ -7,7 +7,6 @@ This repository contains a small collection of utility scripts for file handling
 ## Features
 
 - Conversion of structure files to YAFF-compatible formats
-- Preprocessing helpers
 - Lightweight analysis scripts for simulation output
 - Simple helper
 
