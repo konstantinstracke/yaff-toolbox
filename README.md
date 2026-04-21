@@ -25,6 +25,6 @@ Available at: http://molmod.ugent.be/software
 
 ## Notes
 
-- These scripts are not a polished, but for day-to-day research use.
-- File formats and conventions are assumed to match the author’s simulation setup.
+- No Gurantees, these scripts are not polished, but for day-to-day research use.
+- File formats and conventions are assumed to match the YAFF’s simulation setup.
 - Use and modify at your own discretion.
