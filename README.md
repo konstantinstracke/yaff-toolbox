@@ -1,6 +1,6 @@
 # Toolbox for YAFF
 
-This repository contains a small collection of utility scripts for file handling, preprocessing, and analysis in workflows based on YAFF.
+This repository contains a small collection of utility scripts for file handling, processing, and analysis in workflows based on YAFF.
 
 
 ## Features
