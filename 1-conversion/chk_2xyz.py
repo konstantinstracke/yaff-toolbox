@@ -10,13 +10,12 @@ from yaff.pes.dlist import DeltaList
 from yaff.pes.iclist import InternalCoordinateList
 from yaff.sampling.utils import cell_lower
 
+
 if len(sys.argv) != 2:
-    prog = sys.argv[0]
-    print(f"Usage: python {prog} init.chk")
-    print("Converts a Yaff .chk file to a .xyz file.")
+    print("Usage : python chk_2xyz.py <struct_file>")
     sys.exit(1)
-    
+
 struct_fname = sys.argv[1]
+
 system = System.from_file(struct_fname)
-fn_output = struct_fname[:-4]+".xyz" if len(sys.argv) == 2 else sys.argv[2] if len(sys.argv) > 2 else "output.xyz"
-system.to_file(fn_output)
+system.to_file(struct_fname[:-4]+'.xyz')
