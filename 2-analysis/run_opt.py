@@ -69,8 +69,8 @@ if len(sys.argv) < 4:
 
 fn_chk   = sys.argv[1]
 fn_ff    = sys.argv[2]
-opt_type = sys.argv[3]          # 'geo' or 'cell'
-fn_out   = sys.argv[4] if len(sys.argv) >= 5 else fn_chk[:-4] + '.chk'
+opt_type = sys.argv[3]          # 'geo' or 'cell' or 'full'
+fn_out   = sys.argv[4] if len(sys.argv) >= 5 else fn_chk[:-4] + '_opt.chk'
 
 # --- setup ---
 system = System.from_file(fn_chk)
@@ -79,9 +79,11 @@ ff = ForceField.generate(system, fn_ff, rcut=12*angstrom, smooth_ei=False, gcut_
 if opt_type == 'geo':
     dof = CartesianDOF(ff, gpos_rms=1e-8, dpos_rms=1e-6)
 elif opt_type == 'cell':
-    dof = StrainCellDOF(ff)
+    dof = StrainCellDOF(ff, gpos_rms=1e-8, dpos_rms=1e-6)
+elif opt_type == 'full':
+    dof = FullCellDOF(ff, gpos_rms=1e-8, dpos_rms=1e-6)
 else:
-    raise ValueError("opt_type must be 'geo' or 'cell', got: " + opt_type)
+    raise ValueError("opt_type must be 'geo', 'cell', or 'full', got: " + opt_type)
 
 # --- Hooks ---
 screen = OptScreenLog(step=1)
